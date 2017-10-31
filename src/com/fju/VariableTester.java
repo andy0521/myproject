@@ -38,7 +38,7 @@ public class VariableTester {
 		  float f = 6.7f;
 	        int x = 5;
 	        int y = 3;
-	        int z = x % y;
+	        int z = x /y;//  int z = x %y ;  =餘數
 	        System.out.println(z);
 	        System.out.println(3>>1);
 	        System.out.println(3<<1);
@@ -47,6 +47,13 @@ public class VariableTester {
 	        System.out.println(x);
 	        x+=2;
 	        System.out.println(x);
+	        //字串轉整數
+	        String data = "123";
+	        int n = Integer.parseInt(data);
+	        //整數轉字串
+	        String mydata = String.valueOf(n);
+	        
+	        	
 	     }
 				
 				
