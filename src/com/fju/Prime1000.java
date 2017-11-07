@@ -15,7 +15,7 @@ public class Prime1000 {
 				
 				
 			}if ( prime){
-			System.out.print(n+"\t");}
+			System.out.print(n+" ");}
 		}}}
 			
 		
