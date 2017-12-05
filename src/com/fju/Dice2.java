@@ -7,17 +7,15 @@ public class Dice2 {
         int n[] = {51,22,6,65,15};
         for (int i = 0 ;i<n.length;i++){
         	for (int j=0;j<n.length;j++){
-        		if(n[i]< n[i+j]){
-        			int  tmp =n[j];
-        			n[j]=n[i];
-        			n[i]= tmp;
-        			int tmp1=n[i];
+        		if(n[i]> n[j]){
+        			int  tmp =n[i];
+        			n[i]=n[j];
+        			n[j]= tmp;
+        			
 //        			int tmp1 = j;
 //        					j=i;
 //        					i=tmp1;
-        			
-        		}else{
-        			continue;
+        		
         		}
         		
         	//	System.out.print(n[j]+ " ");
@@ -26,6 +24,9 @@ public class Dice2 {
         		//b=tmp;
         		
         	}
+        }
+        for (int nu :n){
+        	System.out.print(nu+" ");
         }
 	}
 
