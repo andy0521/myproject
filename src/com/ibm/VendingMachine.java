@@ -11,6 +11,7 @@ public class VendingMachine {
 		drinks [2]=new Drinks("c", 30);
 		int n[]={1,5,10};
 		
+		
 	}
 
 }
