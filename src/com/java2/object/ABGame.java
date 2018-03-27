@@ -10,9 +10,10 @@ public class ABGame {
 		
 		int length = secret.length();
 			int a =0;
-		while (a!= 4) {
+		while (a != 4) {
 		a=0;
 		int b = 0;
+			System.out.println("please enter your number:");
 			Scanner sc1 =new Scanner(System.in);
 			String num =sc1.nextLine();
 			for (int i = 0; i < length; i++) {
