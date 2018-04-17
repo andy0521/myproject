@@ -1,7 +1,7 @@
 package com.fju.sogo;
 
 public class SiliverCustomer extends Customer {
-	public SiliverCustomer(int amount,float discount) {
+	public SiliverCustomer(int amount) {
 		super(amount);
 			super.discount =0.1f;
 			super.amount =amount;

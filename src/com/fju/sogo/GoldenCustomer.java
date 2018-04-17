@@ -1,7 +1,7 @@
 package com.fju.sogo;
 
 public class GoldenCustomer extends SiliverCustomer {
-	  public GoldenCustomer (int amount,float discount){
+	  public GoldenCustomer (int amount){
 		  
 		  
 		  super(amount,discount);
