@@ -61,7 +61,7 @@ public class VendingMachine {
 					System.out.println("餘額不足");
 				}else {
 					total=total-25;
-					System.out.println("Beep!");
+					System.out.println("done!");
 				}
 				break;
 			case 2:
@@ -69,7 +69,7 @@ public class VendingMachine {
 					System.out.println("餘額不足");
 				}else {
 					total=total-30;
-					System.out.println("Beep!");
+					System.out.println("done!");
 				}
 				break;
 			case 3:
@@ -77,7 +77,7 @@ public class VendingMachine {
 					System.out.println("餘額不足");
 				}else {
 					total=total-20;
-					System.out.println("Beep!");
+					System.out.println("done!");
 				}
 				break;
 			case 0:
