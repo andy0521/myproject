@@ -26,6 +26,8 @@ public class MazeMain {
 			int row = Integer.parseInt(token[1]);
 			line = in.readLine();
 			int trapCount = Integer.parseInt(line);
+			MazeMap mm =new MazeMap();
+			
 			Maze maze = new Maze(col, row, trapCount);
 			maze.putTrap();	
 			maze.start();
