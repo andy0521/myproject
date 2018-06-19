@@ -7,4 +7,8 @@ public class Course {
 
 	}
 
+	public Course(){
+		readCourse();
+		
+	}
 }

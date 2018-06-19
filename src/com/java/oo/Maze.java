@@ -55,7 +55,7 @@ import com.java.oo.MazeMap.Player;
 							pos = pos - 4;
 						} else {
 							hp = hp - 5;
-						
+							System.out.println("撞到牆壁了");
 						}
 						
 						break;
@@ -64,6 +64,7 @@ import com.java.oo.MazeMap.Player;
 							pos = pos + 4;
 						} else {
 							hp = hp - 5;
+							System.out.println("撞到牆壁了");
 						}
 						
 						break;
@@ -72,6 +73,7 @@ import com.java.oo.MazeMap.Player;
 							pos = pos - 1;
 						} else {
 							hp = hp - 5;
+							System.out.println("撞到牆壁了");
 						}
 						
 						break;
@@ -80,6 +82,7 @@ import com.java.oo.MazeMap.Player;
 							pos = pos + 1;
 						} else {
 							hp = hp - 5;
+							System.out.println("撞到牆壁了");
 						}
 						
 						break;
