@@ -1,4 +1,4 @@
-package com.java.oo;
+package com.java2.maze;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -6,8 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-
-import com.java.oo.MazeMap.Player;
+import com.java2.maze.MazeMap.Player;
 
 public class MazeMain {
 	
@@ -22,8 +21,8 @@ public class MazeMain {
 			String line = in.readLine();
 			String[] token = line.split(",");
 
-			int col = Integer.parseInt(token[0]);
-			int row = Integer.parseInt(token[1]);
+			int col = Integer.parseInt(token[1]);
+			int row = Integer.parseInt(token[0]);
 			line = in.readLine();
 			int trapCount = Integer.parseInt(line);
 			MazeMap mm =new MazeMap();

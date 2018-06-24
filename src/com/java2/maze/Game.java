@@ -1,4 +1,4 @@
-package com.java.oo;
+package com.java2.maze;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.java.oo;
+package com.java2.maze;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-import com.java.oo.MazeMap.Player;
+import com.java2.maze.MazeMap.Player;
 
 public class MazeMap {
 
